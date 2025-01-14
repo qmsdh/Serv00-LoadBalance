@@ -9,6 +9,8 @@
 
 使用 Workers/Pages 连接 Github 的方法部署均可；绑定自定义域后，使用这个自定义域代替伪装域名和SNI，节点的uuid需要相同。节点就是你随便打开一个你原来的节点，修改sni和伪装域名为你workers/pages的自定义域名，然后即可使用。
 
+（点击下载[_worker.js](https://github.com/qmsdh/Serv00-LoadBalance/blob/main/_worker.js)）
+
 ## 功能
 
 - **负载均衡**：基于轮询方式来选择服务器，不依赖 IP 哈希。
