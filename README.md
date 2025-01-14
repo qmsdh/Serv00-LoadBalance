@@ -1,4 +1,5 @@
 仅供测试！！！仅供测试！！！仅供测试！！！
+（秋名山修改使用说明更易懂完整，并非我原创）
 
 # Cloudflare Workers 负载均衡器
 
@@ -6,7 +7,7 @@
 
 # 使用说明
 
-使用Workers/Pages连接Github 的方法部署均可；绑定自定义域后，使用这个自定义域代替伪装域名和SNI，节点的uuid需要相同
+使用Workers/Pages连接Github 的方法部署均可；绑定自定义域后，使用这个自定义域代替伪装域名和SNI，节点的uuid需要相同。随便打开一个你原来的节点，修改sni和伪装域名为你workers/pages的自定义域名，然后即可使用。
 
 ## 功能
 
@@ -17,7 +18,7 @@
 
 1. **环境变量**：
 
-   - SERVERS：必填，域名列表，每行一个地址。例如：
+   - SERVERS：必填，域名列表（Argox隧道域名），每行一个地址。例如：
      ```
      s4argo.google.com
      s5argo.google.com
