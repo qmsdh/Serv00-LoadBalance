@@ -1,9 +1,20 @@
+# 通过CF让多个vmess负载均衡速度提升教程
+
+![OIP-C.jpeg](https://img.877774.xyz/api/cfile/AgACAgUAAyEGAASMeqieAAOGZ4ZopT4jhQFoqA4Hr8B0Axb5M3IAAvvCMRsQAzBUzz0HDESTe34BAAMCAAN4AAM2BA)
+
+## 说明：
+本项目并非我创作，GitHub fork别人的项目的，教程我给扩充并详细讲解了一下。。。
+
 仅供测试！！！仅供测试！！！仅供测试！！！
 （秋名山修改使用说明更易懂完整，并非我原创）
+
+转载请注明出处！
 
 # Cloudflare Workers 负载均衡器
 
 该项目通过 Cloudflare Workers 实现简单的服务器负载均衡，采用轮询算法分配流量到不同的服务器节点。
+
+多个不同服务器建的vmess才能看出效果！不要只用一个vmess，无意义！
 
 # 使用说明
 
